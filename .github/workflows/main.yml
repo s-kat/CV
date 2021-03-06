@@ -4,4 +4,8 @@ on: [push]
 jobs:
  build:
    runs-on: ubuntu-latest
-   run:
+   name: A job to build resume
+   steps:
+   - name: Build resume
+     id: build
+     uses: ./
