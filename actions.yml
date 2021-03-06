@@ -1,0 +1,5 @@
+name: 'Build CV'
+description: 'Build my CV in Docker container'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
