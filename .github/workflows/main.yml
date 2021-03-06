@@ -6,6 +6,8 @@ jobs:
    runs-on: ubuntu-latest
    name: A job to build resume
    steps:
+   - name: Checkout
+     uses: actions/checkout@v2
    - name: Build resume
      id: build
      uses: ./
